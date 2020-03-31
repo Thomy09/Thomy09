@@ -1,0 +1,22 @@
+body{
+  background-image: url('IMG_3190.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+  text-align: center;
+}
+
+ul,ol {
+  list-style-type: none;
+}
+
+.points{;
+  list-style-type: initial;
+  list-style-position: inside;
+}
+
+p{
+  margin: auto;
+  max-width: 750px;
+}
