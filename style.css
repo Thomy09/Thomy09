@@ -7,13 +7,36 @@ body{
   text-align: center;
 }
 
+h3{
+  margin-top: 8vh;
+}
+
 ul,ol {
   list-style-type: none;
 }
 
-.points{;
+ul.index{
+  margin-top: 3vh;
+}
+
+.points{
+  text-align: left;
+  max-width: 300px;
+  margin: auto;
   list-style-type: initial;
   list-style-position: inside;
+}
+
+img.nextToText{
+  width: 11%;
+  position: absolute;
+  right: 27%;
+  top: 11%;
+  z-index: -1;
+}
+
+img{
+  padding: 25px;
 }
 
 p{
