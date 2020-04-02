@@ -28,10 +28,11 @@ ul.index{
 }
 
 img.nextToText{
-  width: 20vh;
-  position: absolute;
-  right: 27%;
-  top: 12%;
+  float: right;
+  width: 150px;
+  position: relative;
+  right: 18%;
+  bottom: 140px;
   z-index: -1;
 }
 
@@ -42,4 +43,12 @@ img{
 p{
   margin: auto;
   max-width: 750px;
+}
+
+@media only screen and (max-width: 1200px) {
+  img.nextToText {
+    float: none;
+    right: 0;
+    bottom: 0;
+  }
 }
