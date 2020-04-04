@@ -58,5 +58,6 @@ p{
 @media only screen and (max-width: 600px) {
   body{
     background-color: #e3b798;
+    background-image: none;
   }
 }
