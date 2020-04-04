@@ -1,7 +1,4 @@
 body{
-  background-image: url('IMG_3190.JPG');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 100% 100%;
 
   text-align: center;
@@ -58,6 +55,12 @@ p{
 @media only screen and (max-width: 600px) {
   body{
     background-color: #e3b798;
-    background-image: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  body{
+    background-image: url('IMG_3190.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
